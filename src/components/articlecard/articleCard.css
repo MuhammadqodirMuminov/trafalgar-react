@@ -1,0 +1,58 @@
+.article-card {
+  width: 350px;
+  background: #ffffff;
+  /* drop shadow */
+
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  padding: 24px 66px 35px 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.article-card img {
+  border-radius: 20px;
+}
+
+.article-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.article-card-subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+
+.card-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height, or 165% */
+
+  color: #4089ed;
+  text-decoration: none;
+  mix-blend-mode: norm;
+}

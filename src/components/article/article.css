@@ -1,0 +1,53 @@
+.article {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.article hr {
+  margin-top: 25px;
+  width: 56px;
+  height: 4px;
+  background: #000000;
+  border-radius: 5px;
+}
+
+.article-cards {
+  margin-top: 79px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 34px;
+}
+
+.article-btn {
+  margin-top: 69px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  padding: 2px 51px;
+  font-size: 18px;
+  line-height: 60px;
+
+  color: #458ff6;
+  cursor: pointer;
+  background-color: white;
+  mix-blend-mode: normal;
+}
+
+.article-btn:hover {
+  background-color: #458ff6;
+  border: 1.4px solid #f0f1f3;
+  color: #f0f1f3;
+}

@@ -1,0 +1,95 @@
+.costumer {
+  margin-top: 200px !important;
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+.costumer-main {
+  width: 100%;
+  padding: 64px 118px 79px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.costumer-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.costumer hr {
+  margin-top: 25px;
+  width: 56px;
+  height: 4px;
+  background: #fff;
+  border-radius: 5px;
+}
+.costumer-user {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.costumer-user img {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 144px;
+  height: 144px;
+}
+
+.user-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.user-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height, or 267% */
+
+  color: rgba(255, 255, 255, 0.85);
+
+  mix-blend-mode: normal;
+}
+
+.costumer-title {
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.costumer-subtitle {
+  width: 420px;
+  margin-top: 61px;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: start;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  mix-blend-mode: normal;
+}

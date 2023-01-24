@@ -1,0 +1,34 @@
+.card {
+  width: 350px;
+  height: 354px;
+  padding: 62px 52px 47px 36px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.card-title {
+  margin-top: 19px;
+
+  font-size: 24px;
+  line-height: 56px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
